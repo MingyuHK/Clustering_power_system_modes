@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 24 21:58:55 2018
-
-@author: hqc
-"""
-#%% 导入包与
-#use scikit learn
-#basic clustering process
 import numpy as np
 import sklearn.decomposition
 
@@ -29,7 +20,6 @@ allResults = []
 class OperationClustering:
     def __init__(self, line_num=0, method=1, cluaster_num=None):
         # self.data = None
-        # 不同的降维方法，0：pca 1:tsne 2:isomap 3:LargeVis
         self.method = method
         self.dispension = []
         self.chg_freq = []
