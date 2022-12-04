@@ -2,4 +2,4 @@ Here is the code used for this project.
 1. Use cluster_num.py to get the optimal cluster number
 2. Run test_cluster.py to get the cluster results
 3. Run get_mean.py to get the power balance results
-4. Run test_Decision_Tree.py to get the decision tree for clusters
+4. Run test_DecisionTree.py to get the decision tree for clusters
